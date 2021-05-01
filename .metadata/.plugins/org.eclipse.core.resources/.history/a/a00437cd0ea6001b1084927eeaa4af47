@@ -1,0 +1,11 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// arrays
+		String[] students= {"Ahmet","Mehmet","Veli","Serdar"};
+
+	}
+
+}

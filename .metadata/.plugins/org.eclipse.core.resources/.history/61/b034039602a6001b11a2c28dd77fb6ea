@@ -1,0 +1,3 @@
+module variable {
+	String ogrsayi="Öðrenci sayým 8";
+}

@@ -1,0 +1,21 @@
+package oppHomework;
+
+public class Course {
+
+	public static void main(String[] args) {
+		
+		public Course(	int id,String courseName,String instructorName,double completed) {
+			this.id=id;
+			this.courseName=courseName;
+			this.instructorName=instructorName;
+			this.completed=completed
+		}
+		
+		int id;
+		String courseName;
+		String instructorName;
+		double completed;
+
+	}
+
+}

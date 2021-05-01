@@ -1,0 +1,14 @@
+package oppHomework;
+
+public class Courses {
+	
+	private Courses() {
+		
+
+	}
+	
+	int id;
+	String name;
+	int  completed;
+	
+}

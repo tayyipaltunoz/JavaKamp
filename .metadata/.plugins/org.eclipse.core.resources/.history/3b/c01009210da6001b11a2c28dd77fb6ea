@@ -1,0 +1,20 @@
+package loopDemo;
+
+import java.util.Iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//For
+		for(int i=0;i<10;i++) {
+			System.out.println(i);
+		}
+		System.out.println("For dögüsü bitti");
+		//While
+		while (i<10) {
+			System.out.println(i);
+		}
+		System.out.println("For dögüsü bitti");
+	}
+
+}

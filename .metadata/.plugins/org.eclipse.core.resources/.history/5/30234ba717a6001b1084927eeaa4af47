@@ -1,0 +1,11 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Merhaba nasýlsýn?";
+
+		System.out.println("Eleman sayýsý:" + mesaj.length());
+	}
+
+}

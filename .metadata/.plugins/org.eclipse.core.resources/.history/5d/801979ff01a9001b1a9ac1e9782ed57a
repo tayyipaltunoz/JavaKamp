@@ -1,0 +1,6 @@
+package inheritance2;
+
+public class Main {
+	LogManager logManager = new LogManager();
+	log
+}

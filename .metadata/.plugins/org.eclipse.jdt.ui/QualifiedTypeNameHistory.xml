@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="jdk.internal.joptsimple.internal.Strings"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.functions.FuncStartsWith"/>
+    <fullyQualifiedTypeName name="oppIntro.Product"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oppIntro.ProductManager"/>
+    <fullyQualifiedTypeName name="oppHomework.Course"/>
+    <fullyQualifiedTypeName name="oppHomework.CourseManager"/>
+    <fullyQualifiedTypeName name="oppHomework.CommentManager"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.IntegerSyntax"/>
+    <fullyQualifiedTypeName name="classes.CustomerManager"/>
+    <fullyQualifiedTypeName name="reCapDemo_Classes.DortIslem"/>
+    <fullyQualifiedTypeName name="classesWithAttributes.Product"/>
+    <fullyQualifiedTypeName name="classesWithAttributes.ProductManager"/>
+    <fullyQualifiedTypeName name="oppIntro.Category"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.IndividualCustomer"/>
+    <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance.SendikaCustomer"/>
+    <fullyQualifiedTypeName name="inheritance.CorporateCustomer"/>
+    <fullyQualifiedTypeName name="inheritance2.LogManager"/>
+    <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="inheritance2.FileLogger"/>
+    <fullyQualifiedTypeName name="methodOverloading.DortIslem"/>
+</qualifiedTypeNameHistroy>

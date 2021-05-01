@@ -1,0 +1,18 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// arrays
+		String[] students = { "Ahmet", "Mehmet", "Veli", "Serdar" };
+		
+		System.out.println(students[0]);
+		
+		for(i=)
+
+		for (String student : students) {
+			System.out.println("Student Name :" + student);
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Merhaba nasýlsýn?";
+
+		System.out.println("Eleman sayýsý : " + mesaj.length());
+		System.out.println("Beþinci eleman : " + mesaj.charAt(5));
+		System.out.println(mesaj.concat(" Ýyiyim ya sen"));
+		System.out.println(mesaj.startsWith("M"));
+		System.out.println(mesaj.endsWith("M"));
+		
+		char[] karakterler = new char[6];
+		mesaj.getChars(0, 6, karakterler, 0);
+		System.out.println(karakterler);
+	}
+
+}

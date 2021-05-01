@@ -1,0 +1,11 @@
+package stringsDemo;
+
+import jdk.internal.joptsimple.internal.Strings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Merhaba nasýlsýn?";
+	}
+
+}

@@ -1,0 +1,8 @@
+package oppHomework;
+
+public class Courses {
+	int id;
+	String name;
+	int  completed;
+	
+}

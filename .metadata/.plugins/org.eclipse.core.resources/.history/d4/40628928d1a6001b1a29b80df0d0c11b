@@ -1,0 +1,16 @@
+package asalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int sayi = 7;
+		
+		if(sayi%sayi==0) {
+			System.out.println("Bu sayi asaldýr");
+		}else {
+			System.out.println("Bu sayi asal sayi deðildir");
+		}
+		}
+	}
+
+}

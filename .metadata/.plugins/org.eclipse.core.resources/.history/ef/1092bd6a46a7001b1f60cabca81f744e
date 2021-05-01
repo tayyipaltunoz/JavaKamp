@@ -1,0 +1,35 @@
+package oppIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product();
+		product1.id=1;
+		product1.name="Lenova V4";
+		product1.unitPrice=5000.00;
+		product1.detail="16 gb ram";
+		
+		Product product2 = new Product();
+		product1.id=2;
+		product1.name="Lenova 515";
+		product1.unitPrice=5900.90;
+		product1.detail="20 gb ram";
+		
+		Product product3 = new Product();
+		product1.id=3;
+		product1.name="Lenova V4ultra";
+		product1.unitPrice=9900.00;
+		product1.detail="32 gb ram";
+		
+		Product[] products = {product1,product2,product3};
+				
+		System.out.println(products.length);
+		
+		for()
+		
+		System.out.println(product1.name);
+
+	}
+
+}

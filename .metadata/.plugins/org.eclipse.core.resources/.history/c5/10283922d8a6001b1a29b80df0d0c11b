@@ -1,0 +1,17 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 6 --> 1,2,3 tam bölünebildiði sayýlarýn toplamý kendisine eþittir.
+
+		int number = 6;
+		int toplam;
+
+		for (int i = 1; i < number; i++) {
+
+		}
+
+	}
+
+}

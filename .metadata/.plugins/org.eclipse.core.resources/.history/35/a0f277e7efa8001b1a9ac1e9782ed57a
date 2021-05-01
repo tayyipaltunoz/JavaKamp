@@ -1,0 +1,23 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IndividualCustomer tayyip = new IndividualCustomer();
+		tayyip.id=1;
+		tayyip.firstName="tayyip";
+		tayyip.lastName="altunoz";
+		tayyip.nationalIdentity="10000000000";
+		tayyip.customerNumber="9696";
+		
+		
+		CorporateCustomer hepsiburada = new CorporateCustomer();
+		
+		IndividualCustomer[] ta= {tayyip};
+		for(var yeni : ta) {
+			System.out.println(yeni.firstName + yeni.lastName);
+		}
+	}
+
+}

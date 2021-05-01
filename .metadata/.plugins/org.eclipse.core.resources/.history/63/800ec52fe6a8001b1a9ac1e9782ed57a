@@ -1,0 +1,49 @@
+package oppIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product(1, "Lenova V4", 5000, "12gb",10,0);
+
+		Product product2 = new Product();
+		product2.setId(2);
+		product2.setName("Asus");
+		product2.setDetail("16 gb ram");
+		product2.setUnitPrice(16000);
+		
+
+		Product product3 = new Product();
+
+		Product[] products = { product1, product2, product3 };
+
+		System.out.println(products.length);
+
+		for (Product product : products) {
+			System.out.println(product.getName());
+		}
+
+		Category category1 = new Category();
+		category1.id = 1;
+		category1.name = "Bilgisayar";
+
+		Category category2 = new Category();
+		category2.id = 2;
+		category2.name = "Ev / Bahçe";
+
+		Category[] categories = { category1, category2 };
+
+		for (Category category : categories) {
+			System.out.println(category.name);
+		}
+
+		ProductManager productManager = new ProductManager();
+		
+		productManager.addToCart(product1);
+		productManager.addToCart(product2);
+		productManager.addToCart(product3);
+		
+		
+	}
+
+}

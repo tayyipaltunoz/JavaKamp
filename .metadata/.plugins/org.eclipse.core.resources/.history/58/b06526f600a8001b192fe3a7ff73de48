@@ -1,0 +1,9 @@
+package oppHomework;
+
+public class CourseManager {
+	
+	public void addComment(Course course) {
+		System.out.println("Course added : " + course.courseName);
+	}
+
+}

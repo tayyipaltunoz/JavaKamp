@@ -1,0 +1,17 @@
+package classesWithAttributes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.id = 1;
+		product.name = "laptop";
+		product.description = "i5 104975";
+		product.price = 5000.99;
+		product.stockMount = 23;
+		System.out.println(product.name,product.description,product.price);
+
+	}
+
+}
+ 

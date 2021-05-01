@@ -1,0 +1,24 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 6 --> 1,2,3 tam bölünebildiði sayýlarýn toplamý kendisine eþittir.
+
+		int number = 5;
+		int toplam =0;
+
+		for (int i = 1; i < number; i++) {
+			if(number % i == 0) {
+				toplam = toplam + i;
+			}
+		}
+		if (number == toplam) {
+			System.out.println("Sayi mükemmel sayýdýr");
+		}else {
+			System.out.println("Sayý mükemmel sayý deðildir");
+		}
+
+	}
+
+}
